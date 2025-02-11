@@ -1,5 +1,6 @@
-unsigned long currentTime = 0;
 
+unsigned long currentTime = 0;
+int sat;
 void setup() {
   Serial.begin(9600);
 
